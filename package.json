@@ -1,0 +1,13 @@
+{
+  "name": "services-energies-plus",
+  "version": "1.0.0",
+  "description": "Site web Services Energies + - Ramonage et fumisterie à Quimper",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Static site - no server needed'",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["ramonage", "fumisterie", "quimper", "chauffage"],
+  "author": "Services Energies +",
+  "license": "MIT"
+}
