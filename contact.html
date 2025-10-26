@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Services Energies +</title>
+    <meta name="description" content="Contactez Services Energies + pour vos besoins de ramonage, fumisterie et chauffage à Quimper. Devis gratuit et intervention rapide.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html"><h2>Services Energies +</h2></a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes à votre disposition pour tous vos besoins</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Informations de Contact</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <p><a href="tel:0298507107">02 98 50 71 07</a></p>
+                            <p><a href="tel:0769208577">07 69 20 85 77</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contact@servicesenergiesplus.fr">contact@servicesenergiesplus.fr</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Adresse</h3>
+                            <p>25 Avenue des Sports<br>29000 Quimper</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Horaires</h3>
+                            <p>Lun - Ven : 8h00 - 18h00<br>Samedi : 8h00 - 12h00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Demandez un Devis</h2>
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xrbobbga" method="POST">
+                        <input type="hidden" name="_to" value="contact@servicesenergiesplus.fr">
+                        <input type="hidden" name="_subject" value="Nouvelle demande de devis - Services Energies +">
+                        <input type="hidden" name="_replyto" value="">
+                        <input type="hidden" name="_next" value="merci.html">
+                        <div class="form-group">
+                            <label for="name">Nom *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service souhaité</label>
+                            <select id="service" name="service">
+                                <option value="">Sélectionnez un service</option>
+                                <option value="ramonage-bois">Ramonage Bois</option>
+                                <option value="ramonage-granules">Ramonage Granulés/Pellets</option>
+                                <option value="fumisterie">Fumisterie & Tubage</option>
+                                <option value="debistrage">Débistrage & Dégoudronnage</option>
+                                <option value="poeles-inserts">Poêles & Inserts</option>
+                                <option value="diagnostic">Diagnostic & Inspection</option>
+                                <option value="travaux-hauteur">Travaux en Hauteur</option>
+                                <option value="amiante">Rénovation Toitures Amiante</option>
+                                <option value="vmc">Entretien VMC</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Décrivez vos besoins en détail..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Envoyer la Demande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Notre Localisation</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.123456789!2d-4.100000!3d47.996000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x481a123456789abc%3A0x1234567890abcdef!2s25%20Avenue%20des%20Sports%2C%2029000%20Quimper!5e0!3m2!1sfr!2sfr!4v1234567890123!5m2!1sfr!2sfr"
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Pourquoi nous faire confiance ?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certification INRS</h3>
+                    <p>Professionnels certifiés pour les travaux amiante jusqu'au 30/07/2028</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tools"></i>
+                    <h3>Équipement Professionnel</h3>
+                    <p>Matériel de pointe pour tous types d'interventions</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Assurance Professionnelle</h3>
+                    <p>Tous nos travaux sont couverts par une assurance professionnelle</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Service Personnalisé</h3>
+                    <p>Chaque intervention est adaptée à vos besoins spécifiques</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prêt à commencer ?</h2>
+                <p>Appelez-nous dès maintenant pour une intervention rapide</p>
+                <div class="cta-buttons">
+                    <a href="tel:0298507107" class="btn btn-primary btn-large">
+                        <i class="fas fa-phone"></i> 02 98 50 71 07
+                    </a>
+                    <a href="tel:0769208577" class="btn btn-secondary btn-large">
+                        <i class="fas fa-mobile-alt"></i> 07 69 20 85 77
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Services Energies +</h3>
+                    <p>Votre partenaire de confiance pour tous vos besoins de chauffage à Quimper.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> contact@servicesenergiesplus.fr</p>
+                    <p><i class="fas fa-phone"></i> 02 98 50 71 07</p>
+                    <p><i class="fas fa-mobile-alt"></i> 07 69 20 85 77</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 25 Avenue des Sports, 29000 Quimper</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Ramonage</li>
+                        <li>Fumisterie</li>
+                        <li>Débistrage</li>
+                        <li>Poêles & Inserts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Services Energies +. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
